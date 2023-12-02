@@ -3,8 +3,8 @@ on:
   workflow_dispatch: 
 jobs:
   firstjob: 
-  runs-on: self-hosted 
-  steps:
+    runs-on: self-hosted 
+    steps:
     - name: firstJob script 
       shell: cmd
       run: echo Hello Word! This is first job
