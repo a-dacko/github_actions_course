@@ -1,13 +1,11 @@
 name: first workflow
-
-on:
-  workflow_dispatch:
-
+on: 
+  workflow_dispatch: 
 jobs:
-  firstjob:
-  runs-on: self-hosted
+  firstjob: 
+  runs-on: self-hosted 
   steps:
-    - name: firstJob script
+    - name: firstJob script 
       shell: cmd
       run: echo Hello Word! This is first job
   secondjob: 
